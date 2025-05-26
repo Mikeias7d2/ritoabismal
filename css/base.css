@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0");
+
+@font-face {
+    font-family: deathmetal;
+    src: url("../files/fonts/deadmetal.otf");
+}
+
+@font-face {
+    font-family: berosong;
+    src: url("../files/fonts/berosong.ttf");
+}
+
+@font-face {
+    font-family: coolvetica;
+    src: url("../files/fonts/coolvetica.otf");
+}
+
+:root {
+    --basecolor: #243340;
+    --basecolor_2: #070c0d;
+    --colorfont: #ff0000;
+    --colorfont_2: #b0c6d9;
+    --subbase: #697987;
+}
+
+* {
+    color: var(--colorfont_2);
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+    background: linear-gradient(
+        30deg,
+        var(--basecolor) 0%,
+        var(--basecolor_2) 50%
+    );
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
