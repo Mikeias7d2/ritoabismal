@@ -1,0 +1,209 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Rito Absismal</title>
+        <link rel="stylesheet" href="css/base.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/style_mobile.css" />
+    </head>
+    <body>
+        <div id="home">
+            <video id="vd" autoplay muted>
+                <source src="files/videos/capa.mp4" type="video/mp4" />
+            </video>
+            <div id="menu">
+                <label>Rito Abismal</label>
+                <header>
+                    <ul>
+                        <li>
+                            <a href="#home">
+                                <span class="material-symbols-outlined"
+                                    >home</span
+                                >
+                                home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#sobre">
+                                <span class="material-symbols-outlined">
+                                    import_contacts
+                                </span>
+                                sobre
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#contact">
+                                <span class="material-symbols-outlined">
+                                    contacts
+                                </span>
+                                contato
+                            </a>
+                        </li>
+                    </ul>
+                </header>
+            </div>
+            <div id="auido_player">
+                <audio id="audio" src="files/song/Born-1.mp3"></audio>
+                <hgroup>
+                    <p>titulo da Musica</p>
+                </hgroup>
+                <ul>
+                    <span
+                        class="material-symbols-outlined player_btn"
+                        id="play_pouse"
+                    >
+                        play_circle
+                    </span>
+                    <input
+                        type="range"
+                        class="progressBar"
+                        id="bar"
+                        value="0"
+                        min="0"
+                        max="100"
+                        step="0.1"
+                    />
+                    <p id="time">00:00/00:00</p>
+                    <span
+                        class="material-symbols-outlined player_btn"
+                        id="song"
+                    >
+                        volume_up
+                    </span>
+                    <input
+                        type="range"
+                        class="progressBar"
+                        id="volumeControl"
+                        min="0"
+                        max="1"
+                        step="0.01"
+                        value="1"
+                    />
+                </ul>
+            </div>
+        </div>
+        <div id="sobre">
+            <ul>
+                <li>
+                    <img src="files/images/1.jpg" />
+                    <hgroup>
+                        <h1>Mike das 6</h1>
+                        <p>
+                            Mike das 6 tem 18 anos e é a alma vibrante da banda.
+                            Dono de uma presença de palco marcante e uma voz
+                            cheia de atitude, ele comanda os vocais enquanto
+                            segura o groove no baixo.
+                        </p>
+                    </hgroup>
+                </li>
+                <li id="right">
+                    <hgroup>
+                        <h1>Kolty Inferno</h1>
+                        <p>
+                            Kolty Inferno tem 31 e é o coração pulsante da
+                            banda. Com pegada pesada, atitude crua e batidas que
+                            estremecem qualquer palco, ele não toca bateria —
+                            ele destrói.
+                        </p>
+                    </hgroup>
+                    <img src="files/images/2.jpg" />
+                </li>
+                <li>
+                    <img src="files/images/3.jpg" />
+                    <hgroup>
+                        <h1>Punker Guitarreiro</h1>
+                        <p>
+                            Com só 16 anos e alma de veterano, Punker é o mais
+                            novo da banda — mas ninguém ousa subestimar seus
+                            riffs. Criado na distorção e alimentado por punk
+                            rock, garage e muito barulho, ele faz a guitarra
+                            gritar como se fosse uma extensão do próprio
+                            coração.
+                        </p>
+                    </hgroup>
+                </li>
+            </ul>
+        </div>
+        <div id="contact">
+            <ul>
+                <label>Contato</label>
+                <li>
+                    <a href="mailto:ritoabismal@gmail.com">
+                        <span class="material-symbols-outlined"> mail </span>
+                        ritoabismal@gmail.com
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <span class="material-symbols-outlined">
+                            phone_in_talk
+                        </span>
+                        +55 (31) 9 7100-5131
+                    </a>
+                </li>
+            </ul>
+
+            <ul>
+                <label>Redes sociais</label>
+                <nav>
+                    <li>
+                        <a target="_blank" href="">
+                            <svg fill="none" viewBox="0 0 50 50">
+                                <path
+                                    fill="currentColor"
+                                    fill-rule="evenodd"
+                                    d="M25.009,1.982C12.322,1.982,2,12.304,2,24.991S12.322,48,25.009,48s23.009-10.321,23.009-23.009S37.696,1.982,25.009,1.982z M34.748,35.333c-0.289,0.434-0.765,0.668-1.25,0.668c-0.286,0-0.575-0.081-0.831-0.252C30.194,34.1,26,33,22.5,33.001 c-3.714,0.002-6.498,0.914-6.526,0.923c-0.784,0.266-1.635-0.162-1.897-0.948s0.163-1.636,0.949-1.897 c0.132-0.044,3.279-1.075,7.474-1.077C26,30,30.868,30.944,34.332,33.253C35.022,33.713,35.208,34.644,34.748,35.333z M37.74,29.193 c-0.325,0.522-0.886,0.809-1.459,0.809c-0.31,0-0.624-0.083-0.906-0.26c-4.484-2.794-9.092-3.385-13.062-3.35 c-4.482,0.04-8.066,0.895-8.127,0.913c-0.907,0.258-1.861-0.272-2.12-1.183c-0.259-0.913,0.272-1.862,1.184-2.12 c0.277-0.079,3.854-0.959,8.751-1c4.465-0.037,10.029,0.61,15.191,3.826C37.995,27.328,38.242,28.388,37.74,29.193z M40.725,22.013 C40.352,22.647,39.684,23,38.998,23c-0.344,0-0.692-0.089-1.011-0.275c-5.226-3.068-11.58-3.719-15.99-3.725 c-0.021,0-0.042,0-0.063,0c-5.333,0-9.44,0.938-9.481,0.948c-1.078,0.247-2.151-0.419-2.401-1.495 c-0.25-1.075,0.417-2.149,1.492-2.4C11.729,16.01,16.117,15,21.934,15c0.023,0,0.046,0,0.069,0 c4.905,0.007,12.011,0.753,18.01,4.275C40.965,19.835,41.284,21.061,40.725,22.013z"
+                                    clip-rule="evenodd"
+                                />
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="">
+                            <svg fill="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    fill-rule="evenodd"
+                                    d="M21.7 8.037a4.26 4.26 0 0 0-.789-1.964 2.84 2.84 0 0 0-1.984-.839c-2.767-.2-6.926-.2-6.926-.2s-4.157 0-6.928.2a2.836 2.836 0 0 0-1.983.839 4.225 4.225 0 0 0-.79 1.965 30.146 30.146 0 0 0-.2 3.206v1.5a30.12 30.12 0 0 0 .2 3.206c.094.712.364 1.39.784 1.972.604.536 1.38.837 2.187.848 1.583.151 6.731.2 6.731.2s4.161 0 6.928-.2a2.844 2.844 0 0 0 1.985-.84 4.27 4.27 0 0 0 .787-1.965 30.12 30.12 0 0 0 .2-3.206v-1.516a30.672 30.672 0 0 0-.202-3.206Zm-11.692 6.554v-5.62l5.4 2.819-5.4 2.801Z"
+                                    clip-rule="evenodd"
+                                />
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            target="_blank"
+                            href="https://www.instagram.com/ritoabismal"
+                        >
+                            <svg fill="none" viewBox="0 0 24 24">
+                                <path
+                                    fill="currentColor"
+                                    fill-rule="evenodd"
+                                    d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z"
+                                    clip-rule="evenodd"
+                                />
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            target="_blank"
+                            href="https://www.tiktok.com/@ritoabismal"
+                        >
+                            <svg fill="none" viewBox="0 0 512 512">
+                                <path
+                                    fill="currentColor"
+                                    fill-rule="evenodd"
+                                    d="M412.19,118.66a109.27,109.27,0,0,1-9.45-5.5,132.87,132.87,0,0,1-24.27-20.62c-18.1-20.71-24.86-41.72-27.35-56.43h.1C349.14,23.9,350,16,350.13,16H267.69V334.78c0,4.28,0,8.51-.18,12.69,0,.52-.05,1-.08,1.56,0,.23,0,.47-.05.71,0,.06,0,.12,0,.18a70,70,0,0,1-35.22,55.56,68.8,68.8,0,0,1-34.11,9c-38.41,0-69.54-31.32-69.54-70s31.13-70,69.54-70a68.9,68.9,0,0,1,21.41,3.39l.1-83.94a153.14,153.14,0,0,0-118,34.52,161.79,161.79,0,0,0-35.3,43.53c-3.48,6-16.61,30.11-18.2,69.24-1,22.21,5.67,45.22,8.85,54.73v.2c2,5.6,9.75,24.71,22.38,40.82A167.53,167.53,0,0,0,115,470.66v-.2l.2.2C155.11,497.78,199.36,496,199.36,496c7.66-.31,33.32,0,62.46-13.81,32.32-15.31,50.72-38.12,50.72-38.12a158.46,158.46,0,0,0,27.64-45.93c7.46-19.61,9.95-43.13,9.95-52.53V176.49c1,.6,14.32,9.41,14.32,9.41s19.19,12.3,49.13,20.31c21.48,5.7,50.42,6.9,50.42,6.9V131.27C453.86,132.37,433.27,129.17,412.19,118.66Z"
+                                    clip-rule="evenodd"
+                                />
+                            </svg>
+                        </a>
+                    </li>
+                </nav>
+            </ul>
+        </div>
+    </body>
+    <script src="javascipt/interact.js" type="text/javascript"></script>
+</html>
