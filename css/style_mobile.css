@@ -1,5 +1,6 @@
 @media only screen and (max-width: 1080px) {
     #home {
+        overflow: hidden;
         #menu {
             flex-direction: column;
 
@@ -50,13 +51,14 @@
                 justify-content: left;
                 hgroup {
                     h1 {
-                        font-size: 5em;
+                        font-size: 2em;
                     }
                     width: 100%;
                     p {
-                        width: 100%;
+                        margin-bottom: 10dvw;
+                        width: 80%;
                         font-family: Arial;
-                        font-size: 2em;
+                        font-size: 1em;
                         font-weight: 800;
                     }
                 }
@@ -72,9 +74,9 @@
         ul {
             li {
                 a {
-                    font-size: 1.3em;
+                    font-size: 0.8em;
                     span {
-                        font-size: 1.2em;
+                        font-size: 1em;
                     }
                 }
             }
